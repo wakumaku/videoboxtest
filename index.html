@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <select name="trailer" id="trailer">
+        <option selected="selected" value="BR">Blade Runner 2049</option>
+        <option value="IT">IT</option>
+        <option value="JP">Jurassic World</option>
+    </select>
+
+    <p>Video played at x0.5</p>
+    <video id="vidio" width="320" height="240" controls>
+        <source src="data/br.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <div>
+        <pre id="vidioConsole" style="height:250px; width:400px;">
+            - the console -
+        </pre>
+    </div>
+    
+    <script defer src="videoboxResultBR.js"></script>
+    <script defer src="videoboxStatusBR.js"></script>
+
+    <script defer src="videoboxResultJP.js"></script>
+    <script defer src="videoboxStatusJP.js"></script>
+
+    <script defer src="videoboxResultIT.js"></script>
+    <script defer src="videoboxStatusIT.js"></script>
+    
+    <script defer src="index.js"></script>   
+</body>
+</html>
+
